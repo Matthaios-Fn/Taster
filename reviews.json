@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Olivia Smith",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "The Daily Grind",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Cozy spot for breakfast. Their pancakes are fluffy and perfectly sweet!"
+  },
+  {
+    "id": 2,
+    "name": "Kyle Johnson",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Spice Corner",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "A hidden gem for Indian food — great spice balance and friendly staff."
+  },
+  {
+    "id": 3,
+    "name": "Emma Davis",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Green Bowl",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Fresh, healthy salads that actually fill you up. Highly recommend the tahini dressing!"
+  },
+  {
+    "id": 4,
+    "name": "Noah Brown",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Sunset Diner",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Classic American dishes done right. The milkshakes are thick and delicious."
+  },
+  {
+    "id": 5,
+    "name": "Ava Wilson",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Pizza Haven",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Crispy thin crust and gooey cheese — just how pizza should be!"
+  },
+  {
+    "id": 6,
+    "name": "Mason Taylor",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Taco Spot",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Authentic flavors and super quick service. Great spot for lunch!"
+  },
+  {
+    "id": 7,
+    "name": "Sophia Miller",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Cafe Bloom",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Lovely lattes and even better croissants. A chill place to work or chat."
+  },
+  {
+    "id": 8,
+    "name": "James Anderson",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "BBQ Shack",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Ribs fall right off the bone! Smoky, saucy, and full of flavor."
+  },
+  {
+    "id": 9,
+    "name": "Isabella Moore",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Sweet Treats",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Cupcakes that taste as good as they look — soft, rich, and perfectly sweet."
+  },
+  {
+    "id": 10,
+    "name": "Ethan Thomas",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Sushi Express",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Super fresh fish and quick turnaround. Try the spicy tuna roll!"
+  },
+  {
+    "id": 11,
+    "name": "Mia Jackson",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Burger House",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Juicy patties and crispy fries — the perfect comfort meal."
+  },
+  {
+    "id": 12,
+    "name": "Lucas White",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Noodle Nest",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Rich broth and handmade noodles make every bite satisfying."
+  },
+  {
+    "id": 13,
+    "name": "Charlotte Harris",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Vegan Vibes",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Colorful plant-based dishes bursting with flavor!"
+  },
+  {
+    "id": 14,
+    "name": "Henry Martin",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Curry Garden",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Deep, rich curries and soft naan — great portion sizes too!"
+  },
+  {
+    "id": 15,
+    "name": "Amelia Thompson",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Juice Bar",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Refreshing smoothies and fruit bowls that look as good as they taste."
+  },
+  {
+    "id": 16,
+    "name": "Benjamin Garcia",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Ramen Street",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Hot, hearty ramen that hits the spot every time!"
+  },
+  {
+    "id": 17,
+    "name": "Harper Rodriguez",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Bagel Barn",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Perfectly toasted bagels and creamy spreads — my go-to breakfast place."
+  },
+  {
+    "id": 18,
+    "name": "Elijah Martinez",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "The Deli Stop",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Fresh sandwiches and friendly faces every visit!"
+  },
+  {
+    "id": 19,
+    "name": "Evelyn Lee",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Pho Palace",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Warm pho and generous portions — perfect on a chilly day."
+  },
+  {
+    "id": 20,
+    "name": "Alexander Perez",
+    "profilePic": "https://via.placeholder.com/64x64.png?text=User",
+    "restaurantName": "Mediterraneo",
+    "restaurantImage": "https://via.placeholder.com/300x200.png?text=300x200",
+    "text": "Flavorful kebabs and bright, zesty salads. A real neighborhood favorite."
+  }
+]

@@ -1,0 +1,321 @@
+:root {
+  --primary: #e32b41;
+  --secondary: #fefefe;
+  --text: #222;
+}
+
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* === Header === */
+header {
+  background: #ebe7e7;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  color: var(--primary);
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-right: auto;
+  margin-left: 1rem; /* moves links slightly left */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--primary);
+}
+
+.profile-nav{
+  /* width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 1000; */
+}
+
+/* Profile in Navbar */
+.profile-nav img {
+
+ width:55px;
+  height: 55px;
+  border-radius: 50%;
+
+  z-index: 1000;
+  border: 2px solid var(--primary);
+  object-fit: cover;
+  cursor: pointer;
+
+  transition: transform 0.2s;
+}
+
+.profile-nav img:hover {
+  transform: scale(1.05);
+}
+
+/* === Hero Section === */
+.hero {
+  flex: 1;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(180deg, #fff, #fdf3f4);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background: #c72034;
+}
+
+/* === Recent Reviews Section === */
+#recent-reviews {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff;
+}
+
+#recent-reviews h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+/* === Review Grid === */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 4rem;
+  justify-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* === Review Card === */
+.review-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 850px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* === Review Header === */
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.review-header img.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+  border: 2px solid var(--primary);
+}
+
+.review-header .name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* === Review Body === */
+.review-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.review-body img.restaurant {
+  width: 150px;
+  height: 150px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  border: 2px dashed #ccc;
+}
+
+.review-body .text {
+  flex: 1;
+  text-align: left;
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+footer a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Lightbox === */
+.lightbox {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox-content {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox-content img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.lightbox-content h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.lightbox-content p {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  color: var(--primary);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Lightbox Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-body img.restaurant {
+    width: 100%;
+    height: auto;
+  }
+
+  .review-body .text {
+    width: 100%;
+  }
+}
